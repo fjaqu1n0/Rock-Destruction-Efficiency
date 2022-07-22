@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <link href="style.css" rel="stylesheet"> 
+    <title>Rock Destruction Efficiency</title>   
+</head>
+<body>
+  <header>
+    <div class = "navigator">
+
+      <p>Rock Destruction Efficiency Calculator</p>
+
+      <nav>
+
+        <li><a href = "index.html">Calculator</a></li>
+        <li><a href = "Help.html">Help</a></li>
+        
+      </nav>
+    </div>
+    
+  </header>
+
+  <div class="container-form">
+    <form name="SignUp"  style="border:2px solid rgb(83, 79, 79)"  onsubmit="return validate()">
+      <div class="container">
+        <h1>Rock Destruction Efficiency</h1>
+        <h2><span id = "RDE"></span></h2>  
+        <h4>M<sup>2</sup>S<sup>2</sup>/kg</h4>
+       <br>
+
+       <h3>Volume of Cylinder</h3>
+       <h2><span id = "Volume"></span></h2> <h4 class = "cubed">M<sup>3</h4>
+       
+       <br><br>
+        
+        <div>
+          <h3>Diameter of Drill Bit </h3>
+          <input type="text" id="Diameter" type="number" autofocus oninput="convert(this.value); Cylinder(this.value); RDE(this.value)" />
+          <label>MM</label>
+        </div>
+        <label><span id ="result1" name = "millimeters"></span></label> 
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        <label >M</label>
+        
+        <br>
+
+        <div>
+          <h3>Depth of Hole</h3>
+          <input type="text" id="Depth" type="number" autofocus oninput="convert2(this.value); Cylinder(this.value); RDE(this.value)" />
+          <label>MM</label>
+        </div>
+        <label><span id ="result2" name = "millimeters"></span></label> 
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        <label>M</label>
+      
+        <br> 
+
+        <h3>Force</h3>
+
+        <label id="Constant">133.7281</label>
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        <label >N</label>
+
+        <br>   <br> <br> <br>
+     
+      </div>
+    </form>
+  </div>
+    <script src="Formula.js"></script>
+</body>
+</html>
+
+

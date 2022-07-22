@@ -1,0 +1,158 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+padding: 0;
+margin: 0;
+background: #000000;
+}
+
+.container-form{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 50%;
+    padding: 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+* {
+box-sizing: border-box;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+header{
+  background-color: #333337;
+  color: #f1f1f1;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+p{
+  float: left;
+  font-weight: bold;
+  padding: 10px 0;
+  margin-left: 2%;
+  color: #f1f1f1;
+}
+
+h6{
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;  
+  font-size: 15px;
+  color: #f1f1f1;
+}
+nav{
+  float:right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 10px;
+  padding-top: 25px;
+  margin-right: 70px;
+  position: relative;
+}
+
+nav a{
+  color: #f1f1f1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+nav a:hover{
+  color: #995656;
+}
+
+
+
+input {
+padding: 10px;
+padding-right: 260px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+margin-left: -25%;
+}
+
+h1, h2{
+    text-align: center;
+    color: #f1f1f1;
+}
+
+h2{
+  margin-left: 20%;
+}
+
+h3{
+  color: #f1f1f1;
+  text-align: left;
+  font-size: 15;
+  margin-left: 5%;
+}
+.step1{
+  text-align: center;
+}
+
+label {
+  width: 100px;
+  color: #f1f1f1;
+  text-align: right;
+  margin-right: -15%;
+}​
+
+h3{
+  text-align: right;
+  
+}
+
+h4{
+  margin-right: 10%;
+  float: right;
+  color: #f1f1f1;
+}
+
+h2, label{
+  clear: both;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.Cylinder{
+  margin-left: 18%;
+}
+
+.cubed{
+  margin-right: 15%
+}
+
+
+
+/* Add padding to container elements */
+.container {
+  padding: 10px;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%
+  }
+}
