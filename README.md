@@ -1,4 +1,4 @@
 # Rock-Destruction-Efficiency
 RDE (Rock Destruction Efficiency Calculator)
-
-Simple Web-based project made for a friend.
+- Simple Website made for a friend.
+- Calculates the RDE and the Cylinder Volume
